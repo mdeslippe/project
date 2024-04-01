@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Myles Deslippe" />
+		<link rel="stylesheet" href="/css/styles.css" />
+		<script src="/js/index.js" defer></script>
+		<title>Web Technology</title>
+	</head>
+	<body>
+		<!-- Page Header -->
+		<header>
+			<!-- Navigation Menu -->
+			<nav id="navigation">
+				<ul class="nav-list no-style-list flex-center">
+					<li><a class="nav-link" href="/index.html">Home</a></li>
+					<li><a class="nav-link nav-current" href="/technology.html">Web Technology</a></li>
+					<li><a class="nav-link" href="/security.html">Cyber Security</a></li>
+					<li><a class="nav-link" href="/ecommerce.html">E-Commerce</a></li>
+					<li><a class="nav-link" href="/contact.html">Contact Us</a></li>
+					<li><a class="nav-link" href="/citation.html">Citations</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- Main Content -->
+		<main class="flex-center flex-column flex-gap-medium">
+			<h1>🌐Protocols, Web Technology, and Standards🌐</h1>
+			<!-- Important Protocol Table -->
+			<section id="protocols">
+				<h2>Important Protocols</h2>
+				<table>
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Release Date</th>
+							<th>Description</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Internet Protocol</td>
+							<td>1983</td>
+							<td>A fundamental protocol for sending and receiving data packets across networks</td>
+						</tr>
+						<tr>
+							<td>Hypertext Transfer Protocol</td>
+							<td>1991</td>
+							<td>Used for transmitting web pages and other data on the World Wide Web</td>
+						</tr>
+						<tr>
+							<td>File Transfer Protocol</td>
+							<td>1971</td>
+							<td>Used for transferring files between a client and a server on a network</td>
+						</tr>
+						<tr>
+							<td>Simple Mail Transfer Protocol</td>
+							<td>1982</td>
+							<td>Used for sending and receiving email messages over a network</td>
+						</tr>
+						<tr>
+							<td>Post Office Protocol Version 3</td>
+							<td>1988</td>
+							<td>Used by email clients to retrieve emails from a server</td>
+						</tr>
+						<tr>
+							<td>Internet Message Access Protocol</td>
+							<td>1986</td>
+							<td>Another protocol for retrieving email messages, with more features than POP3</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			<!-- HTTP Protocol Version Table -->
+			<section id="http">
+				<h2>Hypertext Transfer Protocol Versions</h2>
+				<table>
+					<thead>
+						<tr>
+							<th>Version</th>
+							<th>Release Date</th>
+							<th>Description</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>HTTP/0.9</td>
+							<td>1991</td>
+							<td>The initial version of HTTP, supporting only simple requests to retrieve HTML pages.</td>
+						</tr>
+						<tr>
+							<td>HTTP/1.0</td>
+							<td>1996</td>
+							<td>
+								Introduced several improvements, including support for multiple data types, caching, and keep-alive
+								connections.
+							</td>
+						</tr>
+						<tr>
+							<td>HTTP/1.1</td>
+							<td>1997</td>
+							<td>
+								Added features like persistent connections, pipelining, and chunked transfers, improving efficiency and
+								performance.
+							</td>
+						</tr>
+						<tr>
+							<td>HTTP/2</td>
+							<td>2015</td>
+							<td>
+								Introduced major improvements in performance, including multiplexing, header compression, and server
+								push.
+							</td>
+						</tr>
+						<tr>
+							<td>HTTP/3</td>
+							<td>2020</td>
+							<td>
+								Designed to improve performance further, primarily by using QUIC as the underlying transport protocol
+								for reduced latency and better handling of packet loss.
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			<!-- HTTP Request Examples -->
+			<section id="examples">
+				<h2>Hypertext Transfer Protocol Request Examples for Each Version</h2>
+				<div class="flex-center flex-column flex-gap-medium">
+					<div>
+						<h3>HTTP/0.9</h3>
+						<code><pre>GET /index.html</pre></code>
+					</div>
+					<div>
+						<h3>HTTP/1.0</h3>
+						<code>
+							<pre>
+GET /index.html HTTP/1.0
+Host: www.example.com
+User-Agent: Mozilla/5.0, Accept: text/html
+</pre
+							>
+						</code>
+					</div>
+					<div>
+						<h3>HTTP/1.1</h3>
+						<code>
+							<pre>
+GET /index.html HTTP/1.1
+Host: www.example.com
+User-Agent: Mozilla/5.0, Accept: text/html
+Connection: keep-alive
+</pre
+							>
+						</code>
+					</div>
+					<div>
+						<h3>HTTP/2 (with binary multiplexing)</h3>
+						<code>
+							<pre>
+GET /index.html HTTP/2
+Host: www.example.com
+User-Agent: Mozilla/5.0, Accept: text/html
+</pre
+							>
+						</code>
+					</div>
+					<div>
+						<h3>HTTP/3 (with QUIC)</h3>
+						<code>
+							<pre>
+GET /index.html HTTP/3
+Host: www.example.com
+User-Agent: Mozilla/5.0, Accept: text/html
+</pre
+							>
+						</code>
+					</div>
+				</div>
+			</section>
+			<section id="resources">
+				<h2>External Resources</h2>
+				<ul>
+					<li>
+						<a
+							href="https://www.techtarget.com/searchnetworking/feature/12-common-network-protocols-and-their-functions-explained">
+							Protocol Explainations
+						</a>
+					</li>
+					<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP">Basics of HTTP</a></li>
+
+					<li>
+						<a href="https://www.ietf.org/standards/">Internet Standards</a>
+					</li>
+				</ul>
+			</section>
+		</main>
+	</body>
+</html>
